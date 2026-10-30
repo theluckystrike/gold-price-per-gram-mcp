@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.theluckystrike/gold-price-per-gram-mcp",
+  "title": "Gold Price Per Gram MCP",
+  "description": "Live gold price per gram by karat and currency, metal prices, jewelry melt value, unit conversion.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/theluckystrike/gold-price-per-gram-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://goldgramprice.com",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gold-price-per-gram-mcp.lipmichal.workers.dev/mcp"
+    }
+  ]
+}
