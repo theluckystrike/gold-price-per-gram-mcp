@@ -41,7 +41,7 @@ claude mcp add --transport http gold-price https://gold-price-per-gram-mcp.lipmi
 Or run it locally over stdio:
 
 ```
-claude mcp add gold-price -- npx -y github:theluckystrike/gold-price-per-gram-mcp
+claude mcp add gold-price -- npx -y gold-price-per-gram-mcp
 ```
 
 ### Claude Desktop
@@ -51,7 +51,7 @@ Add to `claude_desktop_config.json`:
 ```json
 {
   "mcpServers": {
-    "gold-price": { "command": "npx", "args": ["-y", "github:theluckystrike/gold-price-per-gram-mcp"] }
+    "gold-price": { "command": "npx", "args": ["-y", "gold-price-per-gram-mcp"] }
   }
 }
 ```
